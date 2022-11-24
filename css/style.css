@@ -1,23 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
 body {
     text-align: center;
-    background-color: blue;
+    background-color: #a3c4bc;
     font-family: 'Yantramanav', sans-serif;
+    color: #e7efc5;
+}
+.buttons {
+    height: 10vh;
 }
 button {
-    height: 10vh;
+    height: 100%;
     width: 15vw;
-    border-radius: 8px;
+    border-radius: 5px;
     border-style: 1px solid black;
+    overflow: auto;
+    background-color: #463f3a;
+    color: #e7efc5;
 }
  .game-area{
     width : 90%;
     height: 50vh;
     margin: auto;
-    /* background-color: black; */
-    border-style: dashed;
+    background-color: #3472e6;
  }
  .score {
     width: 50%;
     float: left;
+ }
+ p {
+    font-size: large;
+ }
+ @media (max-width: 400px) {
+    .buttons{
+        height: 15vh;
+        border-style: dotted;
+        width: 90%;
+        margin: auto;
+    }
+    button{
+        height: 50%;
+        width: 30%;
+        text-align: center;
+        overflow: auto;
+    }
+ }
+ @media (max-width: 200px){
+    body{
+        background-color: yellow;
+    }
  }
