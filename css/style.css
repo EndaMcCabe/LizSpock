@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+body {
+    text-align: center;
+    /* background-color: blue; */
+    font-family: 'Yantramanav', sans-serif;
+}
+button {
+    height: 10vh;
+    width: 15vw;
+    border-radius: 8px;
+    border-style: 1px solid black;
+}
+ .game-area{
+    width : 90%;
+    height: 50vh;
+    margin: auto;
+    /* background-color: black; */
+    border-style: dashed;
+ }
+ .score {
+    width: 50%;
+    float: left;
+ }
