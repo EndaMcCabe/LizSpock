@@ -7,6 +7,7 @@ body {
 }
 .buttons {
     height: 10vh;
+    content: attr(data-type);
 }
 button {
     height: 100%;
@@ -17,23 +18,22 @@ button {
     background-color: #463f3a;
     color: #e7efc5;
 }
- .game-area{
+.game-area{
     width : 90%;
     height: 50vh;
     margin: auto;
     background-color: #3472e6;
- }
+}
  .score {
     width: 50%;
     float: left;
  }
- p {
+p {
     font-size: large;
- }
- @media (max-width: 400px) {
+}
+@media (max-width: 400px) {
     .buttons{
         height: 15vh;
-        border-style: dotted;
         width: 90%;
         margin: auto;
     }
@@ -43,9 +43,4 @@ button {
         text-align: center;
         overflow: auto;
     }
- }
- @media (max-width: 200px){
-    body{
-        background-color: yellow;
-    }
- }
+}
