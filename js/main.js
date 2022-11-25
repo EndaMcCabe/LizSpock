@@ -5,21 +5,15 @@ document.addEventListener("DOMContentLoaded", function(){
         button.addEventListener("click", function(){
             let type = this.getAttribute("data-type");
             opponentAnswer();
-            checkAnswer(type);
             runGame(type);
         })
     }
 })
 
 function runGame(type){
-    
-    
-}
-
-function opponentAnswer(){
     // Create opponent answer by generating a random number: 0=Rock, 1=Paper, 2=Scissors, 3=Lizard, 4=Spock
     let opponent = Math.floor(Math.random() * 5);
-    
+        
     let opChoice = [
         "Rock",
         "Paper",
@@ -28,8 +22,55 @@ function opponentAnswer(){
         "Spock"
     ];
 
-    return(opChoice[opponent]);
+    let enemy = opChoice[opponent];
+
+    if(type === "Rock"){
+        rockChoice(enemy);
+    }else if(type === "Paper"){
+        paperChoice(enemy);
+    }else if(type === "Scissors"){
+        scissorsChoice(enemy);
+    }else if(type === "Lizard"){
+        lizardChoice(enemy);
+    }else if(type === "Spock"){
+        spockChoice(enemy);
+    }
+    
 }
+
+
+function rockChoice(enemy){
+    switch(enemy){
+        case "Rock":
+            draws();
+        break;
+        case "Paper":
+            lose();
+        break;
+        case "Scissors":
+            wins();
+        break;
+        case "Lizard":
+            wins();
+        break;
+        case "Spock":
+            lose();
+        break;
+    }
+}
+
+function paperChoice(enemy){
+
+}
+
+function lizardChoice(enemy){
+
+}
+
+function spockChoice(enemy){
+
+}
+
 function checkAnswer(type){
     let comp = opponentAnswer();
     
@@ -77,6 +118,13 @@ function wins(){
 }
 
 function lose(){
+    //Get the span tag 'incorrect' and increase it by 1 for losing
     let oldLoss = parseInt(document.getElementById('incorrect').innerText);
     document.getElementById("incorrect").innerText = ++oldLoss;
 }
+
+// function draws(){
+//     //Get the span tag 'incorrect' and increase it by 1 for losing
+//     let oldDraw = parseInt(document.getElementById('incorrect').innerText);
+//     document.getElementById("incorrect").innerText = ++oldDraw;
+// }
