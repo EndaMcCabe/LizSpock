@@ -20,17 +20,17 @@ function opponentAnswer(){
     // Create opponent answer by generating a random number: 0=Rock, 1=Paper, 2=Scissors, 3=Lizard, 4=Spock
     let opponent = Math.floor(Math.random() * 5);
     
-    let opChoice = {
-        0:"Rock",
-        1:"Paper",
-        2:"Scissors",
-        3:"Lizard",
-        4:"Spock"
-    };
+    let opChoice = [
+        "Rock",
+        "Paper",
+        "Scissors",
+        "Lizard",
+        "Spock"
+    ];
 
-    return(opChoice(opponent));
+    return(opChoice[opponent]);
 }
-function checkAnswer(){
+function checkAnswer(type){
     let comp = opponentAnswer();
     
     switch(type){
@@ -39,6 +39,19 @@ function checkAnswer(){
                 case "Rock":
                     console.log('Draw');
                 break;
+                case "Paper":
+                    console.log('Loss');
+                break;
+                case "Scissors":
+                    console.log('Win');
+                break;
+                case "Lizard":
+                    console.log('Win');
+                break;
+                case "Spock":
+                    console.log('Loss');
+                break;
+                
             }
         break;
         case "Paper":
@@ -55,4 +68,15 @@ function checkAnswer(){
         break;
     }
 
+}
+
+function wins(){
+    //Get the span tag 'score' and increase it by 1 for winning
+    let oldWins = parseInt(document.getElementById('score').innerText);
+    document.getElementById("score").innerText = ++oldWins;
+}
+
+function lose(){
+    let oldLoss = parseInt(document.getElementById('incorrect').innerText);
+    document.getElementById("incorrect").innerText = ++oldLoss;
 }
