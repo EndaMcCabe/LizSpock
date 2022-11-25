@@ -4,28 +4,48 @@ document.addEventListener("DOMContentLoaded", function(){
     for(let button of buttons){
         button.addEventListener("click", function(){
             let type = this.getAttribute("data-tyoe");
+            opponentAnswer();
+            checkAnswer(type);
             runGame(type);
         })
     }
 })
+
 function runGame(type){
-    // Create opponent answer by generating a random number: 0=Rock, 1=Paper, 2=Scissors, 3=Lizard, 4=Spock
-    let opponent = Math.floor(Math.random() * 5);
+    
     switch(type === "Rock"){
-        case 0:
-            switch(opponent == 0){
-                case 0:
-                console.log("Draw");
-                break;
-            }
+        case opChoice(opponent) === "Rock":
+            console.log('win');
+        break;
+        case opChoice(opponent) == "Paper":
+            console.log('win');
+        break;
+        case opChoice(opponent) == "Scissors":
+            console.log('win');
+        break;
+        case opChoice(opponent) == "Lizard":
+            console.log('win');
+        break;
+        case opChoice(opponent) == "Spock":
+            console.log('win');
+        break;
     }
 }
-// function userAnswer(){
+
+function opponentAnswer(){
+    // Create opponent answer by generating a random number: 0=Rock, 1=Paper, 2=Scissors, 3=Lizard, 4=Spock
+    let opponent = Math.floor(Math.random() * 5);
     
-// }
-// function opponentAnswer(){
+    let opChoice = {
+        0:"Rock",
+        1:"Paper",
+        2:"Scissors",
+        3:"Lizard",
+        4:"Spock"
+    };
+
+    return(opChoice(opponent));
+}
+function checkAnswer(){
     
-// }
-// function checkAnswer(){
-    
-// }
+}
