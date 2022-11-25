@@ -24,15 +24,15 @@ function runGame(type){
 
     let enemy = opChoice[opponent];
 
-    if(type === "Rock"){
+    if(type === "rock"){
         rockChoice(enemy);
-    }else if(type === "Paper"){
+    }else if(type === "paper"){
         paperChoice(enemy);
-    }else if(type === "Scissors"){
+    }else if(type === "scissors"){
         scissorsChoice(enemy);
-    }else if(type === "Lizard"){
+    }else if(type === "lizard"){
         lizardChoice(enemy);
-    }else if(type === "Spock"){
+    }else if(type === "spock"){
         spockChoice(enemy);
     }
     
@@ -41,19 +41,19 @@ function runGame(type){
 
 function rockChoice(enemy){
     switch(enemy){
-        case "Rock":
+        case 'Rock':
             draws();
         break;
-        case "Paper":
+        case 'Paper':
             lose();
         break;
-        case "Scissors":
+        case 'Scissors':
             wins();
         break;
-        case "Lizard":
+        case 'Lizard':
             wins();
         break;
-        case "Spock":
+        case 'Spock':
             lose();
         break;
     }
