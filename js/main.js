@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     for(let button of buttons){
         button.addEventListener("click", function(){
-            let type = this.getAttribute("data-tyoe");
+            let type = this.getAttribute("data-type");
             opponentAnswer();
             checkAnswer(type);
             runGame(type);
@@ -13,23 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 function runGame(type){
     
-    switch(type === "Rock"){
-        case opChoice(opponent) === "Rock":
-            console.log('win');
-        break;
-        case opChoice(opponent) == "Paper":
-            console.log('win');
-        break;
-        case opChoice(opponent) == "Scissors":
-            console.log('win');
-        break;
-        case opChoice(opponent) == "Lizard":
-            console.log('win');
-        break;
-        case opChoice(opponent) == "Spock":
-            console.log('win');
-        break;
-    }
+    
 }
 
 function opponentAnswer(){
@@ -47,5 +31,28 @@ function opponentAnswer(){
     return(opChoice(opponent));
 }
 function checkAnswer(){
+    let comp = opponentAnswer();
     
+    switch(type){
+        case "Rock":
+            switch(comp) {
+                case "Rock":
+                    console.log('Draw');
+                break;
+            }
+        break;
+        case "Paper":
+            console.log('win');
+        break;
+        case "Scissors":
+            console.log('win');
+        break;
+        case "Lizard":
+            console.log('win');
+        break;
+        case "Spock":
+            console.log('win');
+        break;
+    }
+
 }
