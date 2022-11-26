@@ -34,6 +34,8 @@ function runGame(type){
     }else if(type === "spock"){
         spockChoice(enemy);
     }
+    document.getElementById('userChoice').innerText=type;
+    document.getElementById('compChoice').innerText=enemy;
     
 }
 
@@ -143,12 +145,14 @@ function wins(){
     //Get the span tag 'score' and increase it by 1 for winning
     let oldWins = parseInt(document.getElementById('score').innerText);
     document.getElementById("score").innerText = ++oldWins;
+    document.getElementById('result').innerText = "Victory!";
 }
 
 function lose(){
     //Get the span tag 'incorrect' and increase it by 1 for losing
     let oldLoss = parseInt(document.getElementById('incorrect').innerText);
     document.getElementById("incorrect").innerText = ++oldLoss;
+    document.getElementById('result').innerText = "Loss!";
 }
 
 // function draws(){

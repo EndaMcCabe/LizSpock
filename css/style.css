@@ -31,6 +31,14 @@ button {
 p {
     font-size: large;
 }
+.game-area > p{
+    position: relative;
+    top: 50%;
+}
+.game-area > h2 {
+    position: relative;
+    top: 25%;
+}
 @media (max-width: 400px) {
     .buttons{
         height: 15vh;
