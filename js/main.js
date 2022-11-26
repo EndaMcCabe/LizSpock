@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function(){
     for(let button of buttons){
         button.addEventListener("click", function(){
             let type = this.getAttribute("data-type");
-            opponentAnswer();
             runGame(type);
         })
     }
@@ -60,56 +59,85 @@ function rockChoice(enemy){
 }
 
 function paperChoice(enemy){
+    switch(enemy){
+        case 'Rock':
+            wins();
+        break;
+        case 'Paper':
+            draws();
+        break;
+        case 'Scissors':
+            lose();
+        break;
+        case 'Lizard':
+            lose();
+        break;
+        case 'Spock':
+            wins();
+        break;
+    }
+}
 
+function scissorsChoice(enemy){
+    switch(enemy){
+        case 'Rock':
+            lose();
+        break;
+        case 'Paper':
+            wins();
+        break;
+        case 'Scissors':
+            draws();
+        break;
+        case 'Lizard':
+            wins();
+        break;
+        case 'Spock':
+            lose();
+        break;
+    }
 }
 
 function lizardChoice(enemy){
-
+    switch(enemy){
+        case 'Rock':
+            lose();
+        break;
+        case 'Paper':
+            wins();
+        break;
+        case 'Scissors':
+            lose();
+        break;
+        case 'Lizard':
+            draws();
+        break;
+        case 'Spock':
+            wins();
+        break;
+    }
 }
 
 function spockChoice(enemy){
-
-}
-
-function checkAnswer(type){
-    let comp = opponentAnswer();
-    
-    switch(type){
-        case "Rock":
-            switch(comp) {
-                case "Rock":
-                    console.log('Draw');
-                break;
-                case "Paper":
-                    console.log('Loss');
-                break;
-                case "Scissors":
-                    console.log('Win');
-                break;
-                case "Lizard":
-                    console.log('Win');
-                break;
-                case "Spock":
-                    console.log('Loss');
-                break;
-                
-            }
+    switch(enemy){
+        case 'Rock':
+            wins();
         break;
-        case "Paper":
-            console.log('win');
+        case 'Paper':
+            lose();
         break;
-        case "Scissors":
-            console.log('win');
+        case 'Scissors':
+            wins();
         break;
-        case "Lizard":
-            console.log('win');
+        case 'Lizard':
+            lose();
         break;
-        case "Spock":
-            console.log('win');
+        case 'Spock':
+            draws();
         break;
     }
-
 }
+
 
 function wins(){
     //Get the span tag 'score' and increase it by 1 for winning
