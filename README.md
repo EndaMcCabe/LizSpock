@@ -15,7 +15,7 @@ I went to https://coolors.co/ to find the colour palette that would work for thi
 Typography
 I will be using Yamanatrav regular 400 for the typography of the website. I found this font on google fonts https://fonts.google.com/ . This is an example of the font.
 <br>
-<img src="typography.png">
+<img src="images/typography.png">
 <br>
 I believe this style will be a good fit for my vision for the website.
 
