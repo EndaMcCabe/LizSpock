@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
 function runGame(type){
     // Create opponent answer by generating a random number: 0=Rock, 1=Paper, 2=Scissors, 3=Lizard, 4=Spock
+    // Take in the computers randomly generated choice by a random number through an array and send it to the choice function of the user's input.
     let opponent = Math.floor(Math.random() * 5);
         
     let opChoice = [
