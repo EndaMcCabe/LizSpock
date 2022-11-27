@@ -4,49 +4,25 @@ To show that Sheldon was right
 To provide a simple casual game
 Wireframes
 Website and Mobile Wireframes
+<br>
 <img src="images/wireframeWeb.png">
 <img src="images/wireframeMobile.png">
+<br>
 Color Palette
 I went to https://coolors.co/ to find the colour palette that would work for this website. These colours have an soft feel to them that I believe is the right choice to welcome to user.
-
-
+<img src="images/colorPal.png">
+<br>
 Typography
 I will be using Yamanatrav regular 400 for the typography of the website. I found this font on google fonts https://fonts.google.com/ . This is an example of the font.
-
+<br>
+<img src="typography.png">
+<br>
 I believe this style will be a good fit for my vision for the website.
 
 Use Cases
 As the end user I would like:
 Enjoy a simple web based game
 To see sheldon’s idea in action
-
-Javascript Functions
-UserAnswer()
-CheckAnswer()
-OpponentAnswer()
-runGame()
-
-Rules
-	Rock	Paper	Scissors	Lizard	Spock
-Rock	Draw	Loss	Win	Win	Loss
-Paper	Win	Draw	Loss	Loss	Win
-Scissors	Loss	Win	Draw	Win	Loss
-Lizard	Loss	Win	Loss	Draw	Win
-Spock	Win	Loss	Win	Loss	Draw
-
-
-
-
-
-Input	Process	Output
-type	Switch (type === rock){
-case 0:
-Switch(opponent === x){}
-
-}
-w	score
-
-
 
 
 
