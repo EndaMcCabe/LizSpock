@@ -36,7 +36,7 @@
 </ul>
 <h2>Features</h2>
 <br>
-<h3>Heading<h3>
+<h3>Heading</h3>
 <br>
 <img src="images/header.png">
 <p>This header will be able to go back to the landing page where the rules of the game will be available to be seen. This heading has a simple design to make the user focus on the game and let them enjoy it better.</p>
