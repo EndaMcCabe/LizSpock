@@ -15,7 +15,7 @@
 <img src="images/wireframeWeb.png">
 <img src="images/wireframeMobile.png">
 <br>
-<h2>Color Palette</h2>
+<h2>Colour Palette</h2>
 <br>
 <p>I went to https://coolors.co/ to find the colour palette that would work for this website. These colours have an soft feel to them that I believe is the right choice to welcome to user.</p>
 <img src="images/colorPal.png">
@@ -34,7 +34,30 @@
   <li>Enjoy a simple web based game based upon the rock paper scissors game. But that is a too simplistic concept so this game will provide a more nuanced game to the end user.</li>
   <li>To see Sheldon’s idea in action, so user's may be interested in coming to the website after watching the Big Bang Theory. Sheldon alludes to this game in one episode and this would get the end user to come.</li>
 </ul>
-
+<h2>Features</h2>
+<br>
+<h3>Heading<h3>
+<br>
+<img src="images/header.png">
+<p>This header will be able to go back to the landing page where the rules of the game will be available to be seen. This heading has a simple design to make the user focus on the game and let them enjoy it better.</p>
+<br>
+<h3>Buttons</h3>
+<br>
+<img src="images/buttonsBar.png">
+<br>
+<p>This is the controls for the user in the game to use to make choices at which option they would like to pick. For example if the user picks the rock button, this will then use this as the user option and compare it to the computer's option and result in a win/loss or draw scenario</p>
+<br>
+<h3>Game Area</h3>
+<br>
+<img src="images/gameArea.png">
+<br>
+<p>This is the area that is used to show the output of the game which shows the choice of the user vs the choice of the computer and tells the user the result. This is where the user's focus will primarily put on so a contrasting background colour was chosen for it.</p>
+<br>
+<h3>Score Tally</h3>
+<br>
+<img src="images/scoreTally.png">
+<br>
+<p>This is a score counter that tracks the results of all games that are played when user goes on this website. For example when the user wins the wins counter goes up 1 every time they win, and that is the same for the draw and loss counters.</p>
 
 
 
