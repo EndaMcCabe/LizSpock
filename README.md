@@ -12,8 +12,8 @@
 <br>
 <h3>Website and Mobile Wireframes</h3>
 <br>
-<img src="images/wireframeWeb.png">
-<img src="images/wireframeMobile.png">
+<img src="images/wireframeWeb.png" style="width:50%;">
+<img src="images/wireframeMobile.png" style="width:50%">
 <br>
 <h2>Colour Palette</h2>
 <br>
