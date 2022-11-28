@@ -12,13 +12,13 @@
 <br>
 <h3>Website and Mobile Wireframes</h3>
 <br>
-<img src="images/wireframeWeb.png" style="width:50%;">
-<img src="images/wireframeMobile.png" style="width:50%">
+<img src="images/wireframe_web.png" style="width:50%;" alt="Picture of the Website wireframe Web version">
+<img src="images/wireframe_mobile.png" style="width:50%" alt="Picture of the Website wireframe Mobile version">
 <br>
 <h2>Colour Palette</h2>
 <br>
 <p>I went to https://coolors.co/ to find the colour palette that would work for this website. These colours have an soft feel to them that I believe is the right choice to welcome to user.</p>
-<img src="images/colorPal.png">
+<img src="images/color_pal.png">
 <br>
 <h2>Typography</h2>
 <p>I will be using Yamanatrav regular 400 for the typography of the website. I found this font on google fonts https://fonts.google.com/ . This is an example of the font.</p>
@@ -43,19 +43,19 @@
 <br>
 <h3>Buttons</h3>
 <br>
-<img src="images/buttonsBar.png" alt="Picture of the buttons that are used to choose in the game.">
+<img src="images/buttons_bar.png" alt="Picture of the buttons that are used to choose in the game.">
 <br>
 <p>This is the controls for the user in the game to use to make choices at which option they would like to pick. For example if the user picks the rock button, this will then use this as the user option and compare it to the computer's option and result in a win/loss or draw scenario</p>
 <br>
 <h3>Game Area</h3>
 <br>
-<img src="images/gameArea.png" alt="Picture of the game Area that shows the result of the game">
+<img src="images/game_area.png" alt="Picture of the game Area that shows the result of the game">
 <br>
 <p>This is the area that is used to show the output of the game which shows the choice of the user vs the choice of the computer and tells the user the result. This is where the user's focus will primarily put on so a contrasting background colour was chosen for it.</p>
 <br>
 <h3>Score Tally</h3>
 <br>
-<img src="images/scoreTally.png" alt="Picture of the score tallies">
+<img src="images/score_tally.png" alt="Picture of the score tallies">
 <br>
 <p>This is a score counter that tracks the results of all games that are played when user goes on this website. For example when the user wins the wins counter goes up 1 every time they win, and that is the same for the draw and loss counters.</p>
 <br>
@@ -72,7 +72,7 @@
 <br>
 <p>Github Pages was used to deploy this website</p>
 <br>
-<img src="images/githubPages.png" alt="Picture of the page that shows how to deploy the website">
+<img src="images/github_pages.png" alt="Picture of the page that shows how to deploy the website">
 <br>
 <ol>
     <li>Click "Settings" tab in the Github repository</li>
