@@ -61,6 +61,7 @@ a:hover{
     height: 60vh;
     width: 90vw;
     background-color: #3472e6;
+    margin: auto;
 }
 
 @media (max-width: 400px) {
