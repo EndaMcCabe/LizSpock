@@ -20,6 +20,16 @@ button {
     color: #e7efc5;
 }
 
+a {
+    text-decoration: none;
+    color: #e7efc5;
+}
+
+a:hover{
+    color: #e7efc5;
+    text-decoration: none;
+}
+
 .buttons {
     height: 10vh;
     content: attr(data-type);
@@ -50,7 +60,7 @@ button {
 .rules{
     height: 60vh;
     width: 90vw;
-    border-style: dotted;
+    background-color: #3472e6;
 }
 
 @media (max-width: 400px) {
