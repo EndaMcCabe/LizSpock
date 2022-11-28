@@ -1,6 +1,6 @@
 <h1>Overview of Project</h1>
 <hr>
-<p>Click to see the <a href="index.html">website</a>
+<p>Click to see the <a href="https://endamccabe.github.io/LizSpock/">website</a>
 <h2>Aims</h2>
 <br>
 <ul>
