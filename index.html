@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css"/>
+        <script src="js/main.js"></script>
         <title>LizSpock</title>
     </head>
     <body>
@@ -15,9 +16,18 @@
             <h2 class="rulesContent" >Rock Paper Scissors Lizard Spock Game</h2>
             <p class="rulesContent">To play this game, press a button to make a choice and the computer will make a choice leading to a Win/Loss/Draw outcome.</p>
             <div>
+                <button id="myBtn">Rules</button>
                 <button><a href="pages/main.html">Play</a></button>
-            </div>    
-                
+            </div>  
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Some text in the Modal..</p>
+                </div>
+              
+            </div>
         </div>
     </body>
 </html>

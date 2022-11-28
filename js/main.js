@@ -168,3 +168,25 @@ function draws(){
     document.getElementById("draw").innerText = ++oldDraw;
     document.getElementById('result').innerText = "Draw?";
 }
+
+// Get the modal, get the button and span tag
+var mod = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  mod.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  mod.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == mod) {
+    mod.style.display = "none";
+  }
+}
