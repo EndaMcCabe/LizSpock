@@ -1,29 +1,36 @@
-Aims
-Aim to create a simple page to demonstrate an alternative to rock paper scissors game on a webpage
-To show that Sheldon was right
-To provide a simple casual game
-Wireframes
-Website and Mobile Wireframes
+<h2>Aims</h2>
+<br>
+<ul>
+  <li>Aim to create a simple page to demonstrate an alternative to rock paper scissors game on a webpage</li>
+  <li>To show that Sheldon was right</li>
+  <li>To provide a simple casual game</li>
+</ul>
+<h2>Wireframes</h2>
+<br>
+<h3>Website and Mobile Wireframes</h3>
 <br>
 <img src="images/wireframeWeb.png">
 <img src="images/wireframeMobile.png">
 <br>
-Color Palette
-I went to https://coolors.co/ to find the colour palette that would work for this website. These colours have an soft feel to them that I believe is the right choice to welcome to user.
+<h2>Color Palette</h2>
+<br>
+<p>I went to https://coolors.co/ to find the colour palette that would work for this website. These colours have an soft feel to them that I believe is the right choice to welcome to user.</p>
 <img src="images/colorPal.png">
 <br>
-Typography
-I will be using Yamanatrav regular 400 for the typography of the website. I found this font on google fonts https://fonts.google.com/ . This is an example of the font.
+<h2>Typography</h2>
+<p>I will be using Yamanatrav regular 400 for the typography of the website. I found this font on google fonts https://fonts.google.com/ . This is an example of the font.</p>
 <br>
 <img src="images/typography.png">
 <br>
-I believe this style will be a good fit for my vision for the website.
+<p>I believe this style will be a good fit for my vision for the website.</p>
 
-Use Cases
-As the end user I would like:
-Enjoy a simple web based game
-To see sheldon’s idea in action
+<h2>Use Cases</h2>
 
+<p>As the end user I would like:<p>
+<ul>  
+  <li>Enjoy a simple web based game</li>
+  <li>To see Sheldon’s idea in action</li>
+</ul>
 
 
 
