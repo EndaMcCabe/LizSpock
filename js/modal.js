@@ -1,10 +1,10 @@
 // Get the modal, get the button and span tag
 var modal = document.getElementById("myModal");
-var btns = document.getElementById("myBtn");
+var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks the button, open the modal 
-btns.onclick = function() {
+btn.onclick = function() {
   modal.style.display = "block";
 }
 
