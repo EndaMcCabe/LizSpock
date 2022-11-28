@@ -24,6 +24,8 @@ function runGame(type){
 
     let enemy = opChoice[opponent];
 
+    // Depending on the button the user pressed gives the function declaring 
+    // that and pushes the computer's choice as a parameter
     if(type === "rock"){
         rockChoice(enemy);
     }else if(type === "paper"){
@@ -40,7 +42,7 @@ function runGame(type){
     
 }
 
-
+// The choice is rock and compares to computers choice and calls the result function
 function rockChoice(enemy){
     switch(enemy){
         case 'Rock':
@@ -61,6 +63,7 @@ function rockChoice(enemy){
     }
 }
 
+// The choice is paper and compares to computers choice and calls the result function
 function paperChoice(enemy){
     switch(enemy){
         case 'Rock':
@@ -81,6 +84,7 @@ function paperChoice(enemy){
     }
 }
 
+// The choice is scissors and compares to computers choice and calls the result function
 function scissorsChoice(enemy){
     switch(enemy){
         case 'Rock':
@@ -101,6 +105,7 @@ function scissorsChoice(enemy){
     }
 }
 
+// The choice is lizard and compares to computers choice and calls the result function
 function lizardChoice(enemy){
     switch(enemy){
         case 'Rock':
@@ -121,6 +126,7 @@ function lizardChoice(enemy){
     }
 }
 
+// The choice is spock and compares to computers choice and calls the result function
 function spockChoice(enemy){
     switch(enemy){
         case 'Rock':
@@ -160,4 +166,5 @@ function draws(){
     //Get the span tag 'incorrect' and increase it by 1 for losing
     let oldDraw = parseInt(document.getElementById('draw').innerText);
     document.getElementById("draw").innerText = ++oldDraw;
+    document.getElementById('result').innerText = "Loss!";
 }

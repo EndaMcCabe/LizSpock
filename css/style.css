@@ -34,6 +34,7 @@ a:hover{
     height: 10vh;
     content: attr(data-type);
 }
+/* Styling for the game area of the main page */
 
 .gameArea{
     width : 90%;
@@ -41,11 +42,6 @@ a:hover{
     margin: auto;
     background-color: #3472e6;
 }
-
-.score {
-    width: 33%;
-    float: left;
- }
 
 .gameArea > p{
     position: relative;
@@ -57,12 +53,27 @@ a:hover{
     top: 25%;
 }
 
+/* Styling for the score tally system */
+
+.score {
+    width: 33%;
+    float: left;
+}
+
+/* Styling for the rules of the game on the landing page */
+
 .rules{
     height: 60vh;
     width: 90vw;
     background-color: #3472e6;
     margin: auto;
 }
+
+.rules > p, h2 {
+    padding-top: 10%;
+}
+
+/* Styling for when the device width goes below 400px */
 
 @media (max-width: 400px) {
     .buttons{
