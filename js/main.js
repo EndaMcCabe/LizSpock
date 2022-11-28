@@ -166,5 +166,5 @@ function draws(){
     //Get the span tag 'incorrect' and increase it by 1 for losing
     let oldDraw = parseInt(document.getElementById('draw').innerText);
     document.getElementById("draw").innerText = ++oldDraw;
-    document.getElementById('result').innerText = "Loss!";
+    document.getElementById('result').innerText = "Draw?";
 }
