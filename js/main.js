@@ -35,7 +35,7 @@ function runGame(type){
     }else if(type === "spock"){
         spockChoice(enemy);
     }
-    document.getElementById('userChoice').innerText=type;
+    document.getElementById('userChoice').innerText=type+" vs ";
     document.getElementById('compChoice').innerText=enemy;
     
 }

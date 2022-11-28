@@ -5,10 +5,11 @@ body {
     font-family: 'Yantramanav', sans-serif;
     color: #e7efc5;
 }
-.buttons {
-    height: 10vh;
-    content: attr(data-type);
+
+p {
+    font-size: large;
 }
+
 button {
     height: 100%;
     width: 15vw;
@@ -18,27 +19,40 @@ button {
     background-color: #463f3a;
     color: #e7efc5;
 }
-.game-area{
+
+.buttons {
+    height: 10vh;
+    content: attr(data-type);
+}
+
+.gameArea{
     width : 90%;
     height: 50vh;
     margin: auto;
     background-color: #3472e6;
 }
- .score {
+
+.score {
     width: 50%;
     float: left;
  }
-p {
-    font-size: large;
-}
-.game-area > p{
+
+.gameArea > p{
     position: relative;
     top: 50%;
 }
-.game-area > h2 {
+
+.gameArea > h2 {
     position: relative;
     top: 25%;
 }
+
+.rules{
+    height: 60vh;
+    width: 90vw;
+    border-style: dotted;
+}
+
 @media (max-width: 400px) {
     .buttons{
         height: 15vh;
