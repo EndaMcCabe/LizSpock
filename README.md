@@ -1,3 +1,6 @@
+<h1>Overview of Project</h1>
+<hr>
+<p>Click to see the <a href="index.html">website</a>
 <h2>Aims</h2>
 <br>
 <ul>
@@ -28,8 +31,8 @@
 
 <p>As the end user I would like:<p>
 <ul>  
-  <li>Enjoy a simple web based game</li>
-  <li>To see Sheldon’s idea in action</li>
+  <li>Enjoy a simple web based game based upon the rock paper scissors game. But that is a too simplistic concept so this game will provide a more nuanced game to the end user.</li>
+  <li>To see Sheldon’s idea in action, so user's may be interested in coming to the website after watching the Big Bang Theory. Sheldon alludes to this game in one episode and this would get the end user to come.</li>
 </ul>
 
 
