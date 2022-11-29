@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta lang="Een-US">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/style.css"/>
@@ -17,7 +18,10 @@
             <p class="rulesContent">To play this game, press a button to make a choice and the computer will make a choice leading to a Win/Loss/Draw outcome.</p>
             <div>
                 <button aria-label="Rules" id="myBtn">Rules</button>
-                <button aria-label="Play"><a href="assets/pages/main.html">Play</a></button>
+                <form style="display: inline" action="assets/pages/main.html" method="get">
+                    <button aria-label="Play">Play</button>
+                </form>
+                
             </div>  
             <div id="myModal" class="modal">
 
