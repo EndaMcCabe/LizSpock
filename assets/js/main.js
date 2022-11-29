@@ -137,13 +137,13 @@ function lizardChoice(enemy){
 function spockChoice(enemy){
     switch(enemy){
         case 'Rock':
-            wins();
+           wins();
         break;
         case 'Paper':
-            lose();
+           lose();
         break;
         case 'Scissors':
-            wins();
+           wins();
         break;
         case 'Lizard':
             lose();
@@ -156,6 +156,7 @@ function spockChoice(enemy){
 
 
 function wins(){
+    setTimeout(compThink(), 1000);
     //Get the span tag 'score' and increase it by 1 for winning
     let oldWins = parseInt(document.getElementById('score').innerText);
     document.getElementById("score").innerText = ++oldWins;
@@ -163,6 +164,7 @@ function wins(){
 }
 
 function lose(){
+    setTimeout(compThink(), 1000);
     //Get the span tag 'incorrect' and increase it by 1 for losing
     let oldLoss = parseInt(document.getElementById('incorrect').innerText);
     document.getElementById("incorrect").innerText = ++oldLoss;
@@ -170,8 +172,13 @@ function lose(){
 }
 
 function draws(){
+    setTimeout(compThink(), 1000);
     //Get the span tag 'incorrect' and increase it by 1 for losing
     let oldDraw = parseInt(document.getElementById('draw').innerText);
     document.getElementById("draw").innerText = ++oldDraw;
     document.getElementById('result').innerText = "Draw?";
+}
+
+function compThink() {
+    document.getElementById('result').innerText = "Computer is Thinking...";
 }
