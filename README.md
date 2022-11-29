@@ -1,5 +1,6 @@
 <h1 align="center">Overview of Project</h1>
 <hr>
+<h2 align="center"><img src="assets/images/responsive.webp" alt="Look at the webpage across devices"></h2>
 [Click to see the website] (https://endamccabe.github.io/LizSpock/)
 <h2 align="center" text-weight="bold">User Experience<h2>
 <br>
