@@ -35,9 +35,6 @@ a:hover{
     content: attr(data-type);
 }
 
-
-
-
 /* Styling for the game area of the main page */
 
 .gameArea{
@@ -109,6 +106,10 @@ a:hover{
     font-size: 28px;
     font-weight: bold;
 }
+/* The Table in Modal */
+.modal-content > table {
+    border-style: double;
+}
   
 .close:hover,
 .close:focus {
@@ -116,9 +117,6 @@ a:hover{
     text-decoration: none;
     cursor: pointer;
 }
-
-
-
 
 /* Styling for when the device width goes below 400px */
 

@@ -26,17 +26,24 @@ function runGame(type){
 
     // Depending on the button the user pressed gives the function declaring 
     // that and pushes the computer's choice as a parameter
-    if(type === "rock"){
-        rockChoice(enemy);
-    }else if(type === "paper"){
-        paperChoice(enemy);
-    }else if(type === "scissors"){
-        scissorsChoice(enemy);
-    }else if(type === "lizard"){
-        lizardChoice(enemy);
-    }else if(type === "spock"){
-        spockChoice(enemy);
+    switch(type){
+        case "rock":
+            rockChoice(enemy);
+        break;
+        case "paper":
+            paperChoice(enemy);
+        break;
+        case "scissors":
+            scissorsChoice(enemy);
+        break;
+        case "lizard":
+            lizardChoice(enemy);
+        break;
+        case "spock":
+            spockChoice(enemy);
+        break;
     }
+    
     document.getElementById('userChoice').innerText=type+" vs ";
     document.getElementById('compChoice').innerText=enemy;
     
