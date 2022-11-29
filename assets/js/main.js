@@ -154,7 +154,6 @@ function spockChoice(enemy){
     }
 }
 
-
 function wins(){
     //Get the span tag 'score' and increase it by 1 for winning
     let oldWins = parseInt(document.getElementById('score').innerText);
