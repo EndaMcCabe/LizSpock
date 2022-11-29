@@ -1,7 +1,7 @@
 <h1 align="center">Overview of Project</h1>
 <hr>
 <h2 align="center"><img src="assets/images/responsive.webp" alt="Look at the webpage across devices"></h2>
-[Click to see the website] (https://endamccabe.github.io/LizSpock/)
+<a href="https://endamccabe.github.io/LizSpock/">Click to see the website</a>
 <h2 align="center" text-weight="bold">User Experience<h2>
 <br>
 <h2>Use Cases</h2>
@@ -72,6 +72,7 @@
 </ul>
 <h2 align="center">Testing</h2>
 <p>The W3C Markup Validator and W3C Jigsaw CSS Validator Services were used to validate every page of the project to make sure there were no errors in this project.</p>
+<p>The Jshint Javascript Validator were used to check my Javascript scripts and no erros were found in there</p>
 <br>
 <h2 align="center">Deployment</h2>
 <br>
