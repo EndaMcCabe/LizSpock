@@ -32,31 +32,31 @@
 <h2 align="center">Typography</h2>
 <p>I will be using Yamanatrav regular 400 for the typography of the website. I found this font on google fonts https://fonts.google.com/ . This is an example of the font.</p>
 <br>
-<img align="center" src="assets/images/typography.webp" alt="Picture of example of the Yamanatrav font">
+<h2 align="center"><img src="assets/images/typography.webp" alt="Picture of example of the Yamanatrav font"></h2>
 <br>
 <p>I believe this style will be a good fit for my vision for the website.</p>
 <h2 align="center">Features</h2>
 <br>
 <h3 align="center">Heading</h3>
 <br>
-<img align="center" src="assets/images/header.webp" alt="Picture of the header that includes the title 'LizSpock'">
+<h2 align="center"><img src="assets/images/header.webp" alt="Picture of the header that includes the title 'LizSpock'"></h2>
 <p>This header will be able to go back to the landing page where the rules of the game will be available to be seen. This heading has a simple design to make the user focus on the game and let them enjoy it better.</p>
 <br>
 <h3 align="center">Buttons</h3>
 <br>
-<img align="center" src="assets/images/buttons_bar.webp" alt="Picture of the buttons that are used to choose in the game.">
+<h2 align="center"><img src="assets/images/buttons_bar.webp" alt="Picture of the buttons that are used to choose in the game."></h2>
 <br>
 <p>This is the controls for the user in the game to use to make choices at which option they would like to pick. For example if the user picks the rock button, this will then use this as the user option and compare it to the computer's option and result in a win/loss or draw scenario</p>
 <br>
 <h3 align="center">Game Area</h3>
 <br>
-<img align="center" src="assets/images/game_area.webp" alt="Picture of the game Area that shows the result of the game">
+<h2 align="center"><img src="assets/images/game_area.webp" alt="Picture of the game Area that shows the result of the game"></h2>
 <br>
 <p>This is the area that is used to show the output of the game which shows the choice of the user vs the choice of the computer and tells the user the result. This is where the user's focus will primarily put on so a contrasting background colour was chosen for it.</p>
 <br>
 <h3 align="center">Score Tally</h3>
 <br>
-<img align="center" src="assets/images/score_tally.webp" alt="Picture of the score tallies">
+<h2 align="center"><img src="assets/images/score_tally.webp" alt="Picture of the score tallies"></h2>
 <br>
 <p>This is a score counter that tracks the results of all games that are played when user goes on this website. For example when the user wins the wins counter goes up 1 every time they win, and that is the same for the draw and loss counters.</p>
 <br>
