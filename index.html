@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css"/>
-        <script src="js/modal.js" defer></script>
+        <link rel="stylesheet" href="assets/css/style.css"/>
+        <script src="assets/js/modal.js" defer></script>
         <title>LizSpock</title>
     </head>
     <body>
@@ -17,18 +17,63 @@
             <p class="rulesContent">To play this game, press a button to make a choice and the computer will make a choice leading to a Win/Loss/Draw outcome.</p>
             <div>
                 <button aria-label="Rules" id="myBtn">Rules</button>
-                <button aria-label="Play"><a href="pages/main.html">Play</a></button>
+                <button aria-label="Play"><a href="assets/pages/main.html">Play</a></button>
             </div>  
             <div id="myModal" class="modal">
 
                 <!-- Modal content -->
                 <div class="modal-content">
                   <span class="close">&times;</span>
-                  <p>Rock beatsdada Scissors and Lizard |
-                    Paper beats Rock and Spock |
-                    Scissors beats Paper and Lizard |
-                    Lizard beats Paper and Spock |
-                    Spock beats Rock and Scissors</p>
+                  <table>
+                    <tr>
+                        <th></th>
+                        <th>Rock</th>
+                        <th>Paper</th>
+                        <th>Scissors</th>
+                        <th>Lizard</th>
+                        <th>Spock</th>
+                    </tr>
+                    <tr>
+                        <td>Rock</td>
+                        <td>Draw</td>
+                        <td>Loss</td>
+                        <td>Win</td>
+                        <td>Win</td>
+                        <td>Loss</td>
+                    </tr>
+                    <tr>
+                        <td>Paper</td>
+                        <td>Win</td>
+                        <td>Draw</td>
+                        <td>Loss</td>
+                        <td>Loss</td>
+                        <td>Win</td>
+                    </tr>
+                    <tr>
+                        <td>Scissors</td>
+                        <td>Loss</td>
+                        <td>Win</td>
+                        <td>Draw</td>
+                        <td>Win</td>
+                        <td>Loss</td>
+                    </tr>
+                    <tr>
+                        <td>Lizard</td>
+                        <td>Loss</td>
+                        <td>Win</td>
+                        <td>Loss</td>
+                        <td>Draw</td>
+                        <td>Win</td>
+                    </tr>
+                    <tr>
+                        <td>Spock</td>
+                        <td>Win</td>
+                        <td>Loss</td>
+                        <td>Win</td>
+                        <td>Loss</td>
+                        <td>Draw</td>
+                    </tr>
+                  </table>
                 </div>
               
             </div>
