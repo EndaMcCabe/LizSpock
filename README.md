@@ -70,6 +70,9 @@
   <li>Git</li>
   <li>Github</li>
 </ul>
+<h2 align="center">Testing</h2>
+<p>The W3C Markup Validator and W3C Jigsaw CSS Validator Services were used to validate every page of the project to make sure there were no errors in this project.</p>
+<br>
 <h2 align="center">Deployment</h2>
 <br>
 <p>Github Pages was used to deploy this website</p>

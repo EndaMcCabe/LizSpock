@@ -14,7 +14,6 @@ button {
     height: 100%;
     width: 15vw;
     border-radius: 5px;
-    border-style: 1px solid black;
     overflow: auto;
     background-color: #463f3a;
     color: #e7efc5;
