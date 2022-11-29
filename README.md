@@ -1,7 +1,17 @@
-<h1>Overview of Project</h1>
+<h1 align="center">Overview of Project</h1>
 <hr>
-<p>Click to see the <a href="https://endamccabe.github.io/LizSpock/">website</a>
-<h2>Aims</h2>
+[Click to see the website] (https://endamccabe.github.io/LizSpock/)
+<h2 align="center" text-weight="bold">User Experience<h2>
+<br>
+<h2>Use Cases</h2>
+<p>As the end user I would like:<p>
+<ul>
+  <li>As a user, I want to enjoy the game
+  <li>As a user, I want to learn the rules of rock, paper, scissors, lizard, rock</li>
+  <li>As a user, I want to see how the counters will go after multiple uses</li>
+  <li>As a user, I want to see if I can break the website</li>
+</ul>
+<h2 align="center">Aims</h2>
 <br>
 <ul>
   <li>Aim to create a simple page to demonstrate an alternative to rock paper scissors game on a webpage</li>
@@ -12,8 +22,7 @@
 <br>
 <h3>Website and Mobile Wireframes</h3>
 <br>
-<img src="assets/images/wireframe_web.webp" style="width:50%;" alt="Picture of the Website wireframe Web version">
-<img src="assets/images/wireframe_mobile.webp" style="width:50%" alt="Picture of the Website wireframe Mobile version">
+<img src="assets/images/wireframe.webp">
 <br>
 <h2>Colour Palette</h2>
 <br>
@@ -26,14 +35,6 @@
 <img src="assets/images/typography.webp" alt="Picture of example of the Yamanatrav font">
 <br>
 <p>I believe this style will be a good fit for my vision for the website.</p>
-
-<h2>Use Cases</h2>
-
-<p>As the end user I would like:<p>
-<ul>  
-  <li>Enjoy a simple web based game based upon the rock paper scissors game. But that is a too simplistic concept so this game will provide a more nuanced game to the end user.</li>
-  <li>To see Sheldon’s idea in action, so user's may be interested in coming to the website after watching the Big Bang Theory. Sheldon alludes to this game in one episode and this would get the end user to come.</li>
-</ul>
 <h2>Features</h2>
 <br>
 <h3>Heading</h3>
