@@ -27,7 +27,7 @@
 <h2 align="center">Colour Palette</h2>
 <br>
 <p>I went to https://coolors.co/ to find the colour palette that would work for this website. These colours have an soft feel to them that I believe is the right choice to welcome to user.</p>
-<img align="center" src="assets/images/color_pal.png">
+<img align="center" src="assets/images/color_pal.webp">
 <br>
 <h2 align="center">Typography</h2>
 <p>I will be using Yamanatrav regular 400 for the typography of the website. I found this font on google fonts https://fonts.google.com/ . This is an example of the font.</p>
