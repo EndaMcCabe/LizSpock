@@ -109,6 +109,8 @@ a:hover{
 /* The Table in Modal */
 .modal-content > table {
     border-style: double;
+    vertical-align: middle;
+    margin: auto;
 }
   
 .close:hover,
